@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  scout_nav2:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: scout_nav2:humble
+    network_mode: host
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - XAUTHORITY=${XAUTHORITY:-/root/.Xauthority}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ${XAUTHORITY:-/root/.Xauthority}:/root/.Xauthority:ro
+      - ..:/ws
+    working_dir: /ws
+    command: bash

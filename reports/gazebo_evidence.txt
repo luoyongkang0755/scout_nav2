@@ -1,0 +1,24 @@
+=== All ROS Topics ===
+/clock
+/joint_states
+/parameter_events
+/performance_metrics
+/robot_description
+/rosout
+/tf
+/tf_static
+
+=== Topic Info ===
+Type: sensor_msgs/msg/JointState
+Publisher count: 0
+Subscription count: 2
+
+=== Joint States Sample ===
+
+=== Gazebo Services ===
+/gazebo/describe_parameters
+/gazebo/get_parameter_types
+/gazebo/get_parameters
+/gazebo/list_parameters
+/gazebo/set_parameters
+/gazebo/set_parameters_atomically

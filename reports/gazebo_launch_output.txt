@@ -1,0 +1,37 @@
+Starting >>> scout_mini_dual_lidar_gazebo
+Finished <<< scout_mini_dual_lidar_gazebo [0.19s]
+
+Summary: 1 package finished [0.44s]
+---BUILD COMPLETE---
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-06-03-02-21-01-642218-733e2d5577ad-82
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: use_sim_time: 
+[INFO] [launch.user]: true
+[INFO] [robot_state_publisher-1]: process started with pid [84]
+[INFO] [gzserver-2]: process started with pid [86]
+[INFO] [gzclient-3]: process started with pid [88]
+[INFO] [spawn_entity.py-4]: process started with pid [90]
+[robot_state_publisher-1] [INFO] [1780453262.118318293] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1780453262.118619941] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1780453262.118645301] [robot_state_publisher]: got segment front_left_wheel_link
+[robot_state_publisher-1] [INFO] [1780453262.118723917] [robot_state_publisher]: got segment front_right_wheel_link
+[robot_state_publisher-1] [INFO] [1780453262.118740447] [robot_state_publisher]: got segment inertial_link
+[robot_state_publisher-1] [INFO] [1780453262.118754200] [robot_state_publisher]: got segment rear_left_wheel_link
+[robot_state_publisher-1] [INFO] [1780453262.118767216] [robot_state_publisher]: got segment rear_right_wheel_link
+[spawn_entity.py-4] [INFO] [1780453262.953916144] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-4] [INFO] [1780453262.954374527] [spawn_entity]: Loading entity published on topic /robot_description
+[spawn_entity.py-4] [INFO] [1780453262.958860293] [spawn_entity]: Waiting for entity xml on /robot_description
+[spawn_entity.py-4] [INFO] [1780453262.974171589] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-4] [INFO] [1780453262.974704096] [spawn_entity]: Waiting for service /spawn_entity
+[gzserver-2] ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+[gzserver-2] ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+[gzserver-2] ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+[gzserver-2] ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+[gzserver-2] ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+[gzserver-2] ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+[gzserver-2] ALSA lib conf.c:5701:(snd_config_expand) Evaluate error: No such file or directory
+[gzserver-2] ALSA lib pcm.c:2664:(snd_pcm_open_noupdate) Unknown PCM default
+[gzserver-2] AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': No such file or directory
+[spawn_entity.py-4] [INFO] [1780453263.983083962] [spawn_entity]: Calling service /spawn_entity
+[spawn_entity.py-4] [INFO] [1780453264.129864493] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [scout_mini]
+[INFO] [spawn_entity.py-4]: process has finished cleanly [pid 90]
